@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     # all_brands = []
     @brand = brand
-        BRANDS << dbrand
+    BRANDS << brand unless BRANDS.include?(brand)
     end
   # end
 # end
