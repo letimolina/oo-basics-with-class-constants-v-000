@@ -5,13 +5,10 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    # all_brands = []
     @brand = brand
     BRANDS << brand unless BRANDS.include?(brand)
-    end
-  # end
-# end
-# end
+  end
+
 
   def cobble
     @condition = "new"
